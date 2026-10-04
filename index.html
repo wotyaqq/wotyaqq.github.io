@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sceneory — AI Visual Research Assistant for YouTube Creators</title>
+    <meta
+      name="description"
+      content="Turn documentary and explainer scripts into structured visual plans with B-roll ideas, archive research, search queries, maps, charts, and editing directions."
+    />
+    <meta name="theme-color" content="#090b0e" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="canonical" href="https://sceneory.me/" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sceneory" />
+    <meta property="og:title" content="Sceneory — Turn your script into a visual plan." />
+    <meta
+      property="og:description"
+      content="Visual research and production planning for documentary creators, video essayists, and editors."
+    />
+    <meta property="og:url" content="https://sceneory.me/" />
+    <meta property="og:image" content="https://sceneory.me/assets/sceneory-og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Sceneory — Turn your script into a visual plan." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sceneory — Turn your script into a visual plan." />
+    <meta
+      name="twitter:description"
+      content="Visual research and production planning for documentary creators, video essayists, and editors."
+    />
+    <meta name="twitter:image" content="https://sceneory.me/assets/sceneory-og.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav shell" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Sceneory home">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M5.5 7.5h9.25l3.5 4.25h8.25v12.5H5.5z" />
+            <path d="m11 18 3.2 3 6.8-7" />
+          </svg>
+          <span>Sceneory</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#product">Product</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#features">Features</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <a class="button button-small nav-cta" href="#early-access">Get Sceneory</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="top">
+        <div class="hero-grid shell">
+          <div class="hero-copy" data-reveal>
+            <div class="eyebrow"><span class="status-dot"></span>AI Visual Research Assistant</div>
+            <h1>Turn your script into a complete <span>visual research plan.</span></h1>
+            <p class="hero-lede">
+              Sceneory transforms documentary and explainer narration into scene-by-scene visual directions,
+              search queries, research paths, and editing instructions.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#early-access">Get Sceneory <span aria-hidden="true">↘</span></a>
+              <a class="button button-ghost" href="#workflow">See how it works <span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="hero-note">Built for documentary creators, video essayists, and editors.</p>
+          </div>
+
+          <div class="product-window" id="product" data-reveal>
+            <div class="window-bar">
+              <div class="window-brand">
+                <svg class="mini-mark" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M5.5 7.5h9.25l3.5 4.25h8.25v12.5H5.5z" />
+                  <path d="m11 18 3.2 3 6.8-7" />
+                </svg>
+                <strong>Sceneory</strong>
+              </div>
+              <div class="window-project"><span></span> The Container Revolution</div>
+              <div class="window-controls" aria-hidden="true"><i></i><i></i><i></i></div>
+            </div>
+
+            <div class="app-layout">
+              <aside class="app-sidebar" aria-label="Product demonstration sidebar">
+                <div class="project-label">PROJECT</div>
+                <div class="side-item active"><span>◫</span> Production plan <b>12</b></div>
+                <div class="side-item"><span>≡</span> Source script</div>
+                <div class="side-item"><span>⌕</span> Research queue <b>7</b></div>
+                <div class="sidebar-spacer"></div>
+                <div class="sidebar-progress">
+                  <div><span>VISUAL PLAN</span><strong>3 / 12</strong></div>
+                  <div class="progress-track"><span></span></div>
+                </div>
+              </aside>
+
+              <div class="beat-panel">
+                <div class="panel-heading">
+                  <div>
+                    <span class="overline">PRODUCTION PLAN</span>
+                    <h2>The Container Revolution</h2>
+                  </div>
+                  <span class="generate-button"><span>✦</span> Generate beats</span>
+                </div>
+
+                <div class="beat-list">
+                  <article class="beat-card beat-featured">
+                    <div class="beat-index"><span>01</span><i></i></div>
+                    <div class="beat-content">
+                      <div class="beat-topline">
+                        <time>00:00–00:06</time>
+                        <span class="badge badge-archive">ARCHIVE FOOTAGE</span>
+                      </div>
+                      <blockquote>“In 1979, global shipping entered a new era...”</blockquote>
+                      <dl>
+                        <div><dt>SHOW</dt><dd>Historical container port footage.</dd></div>
+                        <div><dt>SEARCH</dt><dd><span>1979 container port archive footage</span></dd></div>
+                        <div><dt>EDIT</dt><dd>Slow push-in. Add date and location in lower third.</dd></div>
+                      </dl>
+                      <span class="search-action">Search Archives <span aria-hidden="true">↗</span></span>
+                    </div>
+                  </article>
+
+                  <article class="beat-card">
+                    <div class="beat-index"><span>02</span><i></i></div>
+                    <div class="beat-content">
+                      <div class="beat-topline">
+                        <time>00:06–00:12</time>
+                        <span class="badge badge-map">MAP</span>
+                      </div>
+                      <dl>
+                        <div><dt>SHOW</dt><dd>Animate the shipping route from Asia to Europe.</dd></div>
+                        <div><dt>GUIDANCE</dt><dd>Map visual — create or source a map.</dd></div>
+                      </dl>
+                    </div>
+                  </article>
+
+                  <article class="beat-card">
+                    <div class="beat-index"><span>03</span><i></i></div>
+                    <div class="beat-content">
+                      <div class="beat-topline">
+                        <time>00:12–00:18</time>
+                        <span class="badge badge-chart">CHART</span>
+                      </div>
+                      <dl>
+                        <div><dt>SHOW</dt><dd>Container traffic growth over time.</dd></div>
+                        <div><dt>GUIDANCE</dt><dd>Chart visual — create from verified data.</dd></div>
+                      </dl>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="problem section section-compact">
+        <div class="shell problem-grid">
+          <div class="section-label" data-reveal><span>THE PROBLEM</span><i></i></div>
+          <div data-reveal>
+            <h2>Stop searching for visuals <span>line by line.</span></h2>
+            <p>
+              Documentary editing often means pausing a script, deciding what fits, writing a search term,
+              opening another source, and planning the cut—again and again.
+            </p>
+            <p class="problem-answer">Sceneory turns that repetitive process into one structured visual plan.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="workflow section" id="workflow">
+        <div class="shell">
+          <div class="section-intro" data-reveal>
+            <div class="section-label"><span>WORKFLOW</span><i></i></div>
+            <h2>From narration to <span>visual plan.</span></h2>
+            <p>A clear route from the words on your page to the visuals in your timeline.</p>
+          </div>
+
+          <div class="workflow-grid" data-workflow data-reveal>
+            <div class="workflow-steps" role="tablist" aria-label="Sceneory workflow">
+              <button class="workflow-step active" type="button" role="tab" aria-selected="true" data-step="0">
+                <span class="step-number">01</span>
+                <span><strong>Paste your script</strong><small>Bring in documentary narration or an explainer draft.</small></span>
+                <i aria-hidden="true">↗</i>
+              </button>
+              <button class="workflow-step" type="button" role="tab" aria-selected="false" data-step="1">
+                <span class="step-number">02</span>
+                <span><strong>Generate production beats</strong><small>Break the story into timed, workable moments.</small></span>
+                <i aria-hidden="true">↗</i>
+              </button>
+              <button class="workflow-step" type="button" role="tab" aria-selected="false" data-step="2">
+                <span class="step-number">03</span>
+                <span><strong>Review visual directions</strong><small>Refine what to show and how to cut it.</small></span>
+                <i aria-hidden="true">↗</i>
+              </button>
+              <button class="workflow-step" type="button" role="tab" aria-selected="false" data-step="3">
+                <span class="step-number">04</span>
+                <span><strong>Find the right footage</strong><small>Follow focused search paths to the right sources.</small></span>
+                <i aria-hidden="true">↗</i>
+              </button>
+            </div>
+
+            <div class="workflow-screen" aria-live="polite">
+              <div class="screen-toolbar"><span>SCENEORY / PROJECT</span><span>● SAVED LOCALLY</span></div>
+              <div class="workflow-visual active" data-panel="0">
+                <div class="editor-ruler">01:00 <i></i> 01:10 <i></i> 01:20</div>
+                <div class="script-sheet">
+                  <span>SOURCE SCRIPT</span>
+                  <p>For most of human history, moving goods across oceans was slow, expensive, and unpredictable.</p>
+                  <p class="selected-copy">Then a simple steel box changed the scale of global trade.</p>
+                  <p>Ports transformed. Supply chains stretched across continents.</p>
+                  <div class="cursor-line"></div>
+                </div>
+              </div>
+              <div class="workflow-visual" data-panel="1">
+                <div class="processing-head"><span>ANALYZING NARRATION</span><b>8 beats found</b></div>
+                <div class="waveform" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <div class="mini-beats"><span><b>01</b> ARCHIVE</span><span><b>02</b> B-ROLL</span><span><b>03</b> MAP</span><span><b>04</b> CHART</span></div>
+              </div>
+              <div class="workflow-visual" data-panel="2">
+                <div class="direction-card"><span>00:20–00:28</span><b>B-ROLL</b><h3>Container stacks at a modern shipping terminal</h3><p>Wide establishing shot, then cut to crane movement on the narration beat.</p></div>
+                <div class="direction-card dim"><span>00:28–00:36</span><b>MAP</b><h3>Route expansion across major ports</h3></div>
+              </div>
+              <div class="workflow-visual" data-panel="3">
+                <div class="search-box"><span>⌕</span><strong>container terminal aerial footage</strong><kbd>↵</kbd></div>
+                <div class="route-row"><span class="badge badge-broll">B-ROLL</span><i></i><strong>Search on Pexels</strong><span>↗</span></div>
+                <div class="route-row"><span class="badge badge-archive">ARCHIVE</span><i></i><strong>Search Archives</strong><span>↗</span></div>
+                <p class="screen-note">You review and download media from the source.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="visual-types section" id="features">
+        <div class="shell">
+          <div class="section-intro split-intro" data-reveal>
+            <div>
+              <div class="section-label"><span>VISUAL TYPES</span><i></i></div>
+              <h2>One story. Every kind of <span>visual language.</span></h2>
+            </div>
+            <p>Plan the right visual for each beat—not just another piece of B-roll.</p>
+          </div>
+
+          <div class="type-board" data-reveal>
+            <article class="type-card type-wide">
+              <div class="type-art film-art" aria-hidden="true"><span></span><span></span><span></span><i>35mm</i></div>
+              <div class="type-copy"><span>01 / MOTION</span><h3>B-ROLL</h3><p>Supporting footage that makes narration tangible.</p></div>
+            </article>
+            <article class="type-card">
+              <div class="type-art archive-art" aria-hidden="true"><div>1979</div><span></span><i>ARCHIVE / 04</i></div>
+              <div class="type-copy"><span>02 / HISTORY</span><h3>ARCHIVE</h3><p>Period footage and historical records.</p></div>
+            </article>
+            <article class="type-card">
+              <div class="type-art photo-art" aria-hidden="true"><div></div><i>FRAME 03</i></div>
+              <div class="type-copy"><span>03 / STILL</span><h3>PHOTO</h3><p>Editorial, historical, and contextual images.</p></div>
+            </article>
+            <article class="type-card type-wide">
+              <div class="type-art map-art" aria-hidden="true"><svg viewBox="0 0 320 130"><path d="M8 102C62 95 62 48 112 56s73 54 119 16 46-57 81-46"/><circle cx="9" cy="102" r="4"/><circle cx="312" cy="26" r="4"/></svg><span>ASIA</span><span>EUROPE</span></div>
+              <div class="type-copy"><span>04 / GEOGRAPHY</span><h3>MAP</h3><p>Guidance for routes, locations, and spatial context.</p></div>
+            </article>
+            <article class="type-card">
+              <div class="type-art chart-art" aria-hidden="true"><i></i><i></i><i></i><i></i><span>+148%</span></div>
+              <div class="type-copy"><span>05 / DATA</span><h3>CHART</h3><p>Directions for visuals built from verified data.</p></div>
+            </article>
+            <article class="type-card">
+              <div class="type-art source-art" aria-hidden="true"><span></span><span></span><span></span><i>SOURCE</i></div>
+              <div class="type-copy"><span>06 / RESEARCH</span><h3>SOURCE</h3><p>Articles and websites that support the story.</p></div>
+            </article>
+            <article class="type-card">
+              <div class="type-art screenshot-art" aria-hidden="true"><div><span></span><span></span></div><i>CAPTURE</i></div>
+              <div class="type-copy"><span>07 / EVIDENCE</span><h3>SCREENSHOT</h3><p>On-screen details, pages, and interface moments.</p></div>
+            </article>
+            <article class="type-card">
+              <div class="type-art motion-art" aria-hidden="true"><b>A</b><b>A</b><b>A</b><i>KEYFRAME</i></div>
+              <div class="type-copy"><span>08 / GRAPHICS</span><h3>MOTION</h3><p>Text and graphics to create in your editor.</p></div>
+            </article>
+            <article class="type-card type-wide">
+              <div class="type-art ai-art" aria-hidden="true"><span></span><span></span><span></span><i>GENERATE / REVIEW</i></div>
+              <div class="type-copy"><span>09 / SYNTHETIC</span><h3>AI VISUAL</h3><p>Prompts and direction for an image generation tool.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="smart-search section">
+        <div class="shell search-grid">
+          <div class="search-copy" data-reveal>
+            <div class="section-label"><span>SMART SEARCH</span><i></i></div>
+            <h2>Research without breaking your <span>editing flow.</span></h2>
+            <p>
+              Each production beat gets a focused route—whether that means footage, images, archival material,
+              sources, or guidance for something you need to create.
+            </p>
+            <div class="callout"><i>i</i><p>Sceneory opens the research path. It does not automatically download media.</p></div>
+          </div>
+
+          <div class="routing-panel" data-reveal>
+            <div class="routing-top"><span>SEARCH ROUTER</span><span>6 ROUTES <i></i></span></div>
+            <div class="routing-list">
+              <div class="routing-row"><span class="badge badge-broll">B-ROLL</span><code>container terminal aerial</code><i>→</i><strong>Search on Pexels</strong><b>↗</b></div>
+              <div class="routing-row"><span class="badge badge-archive">ARCHIVE</span><code>1970s Dubai port</code><i>→</i><strong>Search Archives</strong><b>↗</b></div>
+              <div class="routing-row"><span class="badge badge-photo">PHOTO</span><code>Jebel Ali Port 1985</code><i>→</i><strong>Search Images</strong><b>↗</b></div>
+              <div class="routing-row"><span class="badge badge-source">ARTICLE</span><code>Jebel Ali container throughput</code><i>→</i><strong>Search Sources</strong><b>↗</b></div>
+              <div class="routing-row"><span class="badge badge-map">MAP</span><code>Asia–Europe shipping route</code><i>→</i><strong>Create or source map</strong><b>↗</b></div>
+              <div class="routing-row"><span class="badge badge-chart">CHART</span><code>container traffic growth</code><i>→</i><strong>Create from verified data</strong><b>↗</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="use-cases section">
+        <div class="shell">
+          <div class="section-intro" data-reveal>
+            <div class="section-label"><span>BUILT FOR LONG-FORM</span><i></i></div>
+            <h2>Built for research-heavy <span>videos.</span></h2>
+          </div>
+          <div class="use-case-grid" data-reveal>
+            <article><span>01</span><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="13" width="48" height="36" rx="2"/><path d="m28 24 13 7.5L28 39z"/></svg><h3>YouTube Documentaries</h3><p>Plan historical, cultural, and investigative narratives beat by beat.</p></article>
+            <article><span>02</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M13 13h38v38H13zM20 23h24M20 31h18M20 39h21"/></svg><h3>Video Essays</h3><p>Match layered arguments with visual evidence and deliberate edits.</p></article>
+            <article><span>03</span><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="20"/><path d="M32 20v12l8 7"/></svg><h3>Explainers</h3><p>Turn complex systems into a paced sequence of clear visuals.</p></article>
+            <article><span>04</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 42 25 28l10 8 19-19M44 17h10v10"/></svg><h3>Faceless Channels</h3><p>Build a complete visual story without an on-camera host.</p></article>
+            <article><span>05</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 20h44v29H10zM18 14h28v6M17 31h30M25 25v12M39 25v12"/></svg><h3>Research-heavy Long-form</h3><p>Keep long scripts, sources, search terms, and visual choices organized.</p></article>
+            <article><span>06</span><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="23" cy="26" r="8"/><circle cx="43" cy="29" r="6"/><path d="M8 50c1-10 7-15 15-15s14 5 15 15M36 39c2-3 4-4 7-4 7 0 11 5 12 13"/></svg><h3>Small Editing Teams</h3><p>Share a clearer production language before the timeline gets crowded.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="providers section">
+        <div class="shell providers-grid">
+          <div data-reveal>
+            <div class="section-label"><span>AI PROVIDERS</span><i></i></div>
+            <h2>Use the AI provider <span>you already have.</span></h2>
+            <p>
+              Sceneory uses a Bring Your Own Key model for supported cloud providers. Or use local Ollama models
+              without a cloud API key.
+            </p>
+            <small>AI provider costs, if any, are separate from Sceneory.</small>
+          </div>
+          <div class="provider-list" data-reveal>
+            <div><span>01</span><i class="provider-symbol">◎</i><strong>OpenAI</strong><small>CLOUD</small></div>
+            <div><span>02</span><i class="provider-symbol">◇</i><strong>OpenRouter</strong><small>CLOUD</small></div>
+            <div><span>03</span><i class="provider-symbol">✦</i><strong>Google Gemini</strong><small>CLOUD</small></div>
+            <div><span>04</span><i class="provider-symbol">◒</i><strong>Ollama</strong><small>LOCAL</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="privacy section" id="privacy">
+        <div class="privacy-glow" aria-hidden="true"></div>
+        <div class="shell privacy-grid">
+          <div class="privacy-copy" data-reveal>
+            <div class="section-label"><span>PRIVACY BY DESIGN</span><i></i></div>
+            <h2>Your workflow <span>stays yours.</span></h2>
+            <p>
+              Sceneory is a desktop tool built around local projects and your choice of AI provider—without a
+              Sceneory cloud account or background tracking.
+            </p>
+            <div class="local-status"><span><i></i> LOCAL WORKSPACE</span><strong>Protected by your Windows session</strong></div>
+          </div>
+          <div class="privacy-list" data-reveal>
+            <article><span>01</span><div><h3>Local projects</h3><p>Your Sceneory project files stay on your computer.</p></div><i>✓</i></article>
+            <article><span>02</span><div><h3>No Sceneory account required</h3><p>Open the desktop app and work without a Sceneory cloud login.</p></div><i>✓</i></article>
+            <article><span>03</span><div><h3>No analytics or telemetry</h3><p>Sceneory does not include product analytics or usage tracking.</p></div><i>✓</i></article>
+            <article><span>04</span><div><h3>Bring Your Own Key</h3><p>Cloud API credentials are stored using Windows-protected encrypted storage.</p></div><i>✓</i></article>
+            <article><span>05</span><div><h3>Local Ollama support</h3><p>Use compatible models locally without sending requests to a cloud AI provider.</p></div><i>✓</i></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="early-access section" id="early-access">
+        <div class="shell" data-reveal>
+          <div class="early-card">
+            <div class="early-grid" aria-hidden="true"></div>
+            <span class="edition-label">WINDOWS / EARLY ACCESS</span>
+            <svg class="early-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5.5 7.5h9.25l3.5 4.25h8.25v12.5H5.5z"/><path d="m11 18 3.2 3 6.8-7"/></svg>
+            <h2>Sceneory <span>Early Access</span></h2>
+            <p>
+              Sceneory is currently in early access for Windows. New workflow improvements and visual research
+              tools are actively being developed.
+            </p>
+            <button class="button coming-soon" type="button" disabled>Coming Soon</button>
+            <small>Purchasing will be available soon.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section" id="faq">
+        <div class="shell faq-grid">
+          <div class="faq-heading" data-reveal>
+            <div class="section-label"><span>FAQ</span><i></i></div>
+            <h2>Before you start <span>planning.</span></h2>
+          </div>
+          <div class="faq-list" data-reveal>
+            <details name="faq">
+              <summary><span>01</span>What does Sceneory actually do?<i></i></summary>
+              <p>Sceneory turns scripts into structured visual production plans containing scene directions, research and search queries, visual types, and editing guidance.</p>
+            </details>
+            <details name="faq">
+              <summary><span>02</span>Does Sceneory download footage automatically?<i></i></summary>
+              <p>No. Sceneory helps you plan and locate visuals. You choose and download the media yourself.</p>
+            </details>
+            <details name="faq">
+              <summary><span>03</span>Does Sceneory include an AI subscription?<i></i></summary>
+              <p>No. Supported cloud AI providers use your own API configuration. Any provider costs are separate from Sceneory.</p>
+            </details>
+            <details name="faq">
+              <summary><span>04</span>Which AI providers are supported?<i></i></summary>
+              <p>OpenAI, OpenRouter, Google Gemini, and Ollama.</p>
+            </details>
+            <details name="faq">
+              <summary><span>05</span>Can I use Sceneory with local AI?<i></i></summary>
+              <p>Yes. Sceneory supports local Ollama models.</p>
+            </details>
+            <details name="faq">
+              <summary><span>06</span>Where are my projects stored?<i></i></summary>
+              <p>Projects are stored locally on your computer.</p>
+            </details>
+            <details name="faq">
+              <summary><span>07</span>Does Sceneory send analytics?<i></i></summary>
+              <p>Sceneory currently does not include analytics or telemetry.</p>
+            </details>
+            <details name="faq">
+              <summary><span>08</span>Does Sceneory work on macOS?<i></i></summary>
+              <p>Not currently. Sceneory is currently available for Windows.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-top">
+        <div>
+          <a class="brand" href="#top" aria-label="Sceneory home">
+            <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5.5 7.5h9.25l3.5 4.25h8.25v12.5H5.5z"/><path d="m11 18 3.2 3 6.8-7"/></svg>
+            <span>Sceneory</span>
+          </a>
+          <p>AI Visual Research Assistant for documentary creators.</p>
+        </div>
+        <div class="footer-links" aria-label="Footer navigation">
+          <a href="#product">Product</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+      <div class="shell footer-bottom"><span>© 2026 Sceneory</span><a href="https://sceneory.me/">sceneory.me</a><span>WINDOWS DESKTOP / EARLY ACCESS</span></div>
+    </footer>
+  </body>
+</html>
